@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             modifier = modifier
         )
         Text(
-            text = "What is your name",
+            text = "How old are you",
             modifier = modifier
         )
     }
