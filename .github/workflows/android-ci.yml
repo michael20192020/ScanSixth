@@ -42,5 +42,6 @@ jobs:
              git add app/build/outputs/apk/debug/app-debug.apk
              git commit -m "Add built APK to develop branch"
              git push origin develop
+
         env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Required for GitHub Actions to push to your repo
