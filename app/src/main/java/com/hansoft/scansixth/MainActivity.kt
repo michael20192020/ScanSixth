@@ -48,6 +48,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
             text = "Where are you",
             modifier = modifier
         )
+        Text(
+            text = "What is your name",
+            modifier = modifier
+        )
     }
 }
 
